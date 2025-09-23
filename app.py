@@ -7,13 +7,13 @@ from streamlit.components.v1 import html
 reg_page = st.Page("./pgs/registration.py", title="register", icon=":material/person_add:")
 signin_page = st.Page("./pgs/signin.py", title="sign in", icon=":material/login:")
 home_page = st.Page("./pgs/main.py", title="home page", icon=":material/home:")
-# starter_page = st.Page("./pgs/starter.py", title="Getting started", icon=":material/app_registration:")
+wildsnap_page = st.Page("./pgs/wildsnap.py", title="wildsnap", icon=":material/video_camera_back_add:")
 # setup_page = st.Page("./pgs/setup.py", title="Setup & Installation", icon=":material/apk_install:")
 # sms_service_page = st.Page("./pgs/sms_service.py", title="Messaging", icon=":material/sms:")
 # airtime_page = st.Page("./pgs/airtime.py", title="Airtime", icon=":material/redeem:")
 # mobile_data_page = st.Page("./pgs/mobile_data.py", title="Mobile Data", icon=":material/lte_plus_mobiledata_badge:")
 # ussd_page = st.Page("./pgs/ussd.py", title="USSD", icon=":material/linked_services:")
-# chatbot_page = st.Page("./pgs/chatbot.py", title="chatbot", icon=":material/chat:")
+chatbot_page = st.Page("./pgs/chatbot.py", title="paw bot", icon=":material/chat:")
 
 
 st.set_page_config(
@@ -69,7 +69,7 @@ with st.sidebar:
 
     social_media_icons.render()
 
-pg = st.navigation([reg_page, signin_page, home_page])
+pg = st.navigation([reg_page, signin_page, home_page, wildsnap_page, chatbot_page])
 
 
 

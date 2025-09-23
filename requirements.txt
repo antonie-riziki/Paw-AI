@@ -28,3 +28,4 @@ chromadb
 faiss-cpu
 pypdf
 google-genai
+PIL
