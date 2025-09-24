@@ -29,3 +29,4 @@ faiss-cpu
 pypdf
 google-genai
 pillow
+st-social-media-links
